@@ -71,7 +71,7 @@ class GameWonFragment : Fragment() {
     }
 
     // Sharing from the Menu
-    override fun onOptionsItemSelected(item: MenuItem?): Boolean {
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item!!.itemId) {
             R.id.share -> shareSuccess()
         }
